@@ -37,8 +37,8 @@ const ApiContextProvider = ({ children }) => {
       }
 
       const data = await response.json();
-      localStorage.setItem("token", data.token); // Store the token in local storage
-      setUser(data.user); // Store user information in state
+      localStorage.setItem("token", data.token);
+      setUser(data.user);
       navigate(`/dashboard/${data.user.id}`);
     } catch (error) {
       console.error("Error logging in:", error);
@@ -47,7 +47,7 @@ const ApiContextProvider = ({ children }) => {
   };
 
   const logoutUser = () => {
-    localStorage.removeItem("token"); // Remove the token on logout
+    localStorage.removeItem("token");
     setUser(null);
     navigate("/login");
   };

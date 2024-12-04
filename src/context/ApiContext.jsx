@@ -52,6 +52,8 @@ const ApiContextProvider = ({ children }) => {
     navigate("/login");
   };
 
+  // EVENTS
+
   const value = {
     user,
     error,

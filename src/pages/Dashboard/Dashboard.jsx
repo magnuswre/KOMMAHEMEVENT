@@ -1,13 +1,13 @@
 import React from "react";
 import "./Dashboard.css";
 import DashboardComponent from "../../components/DashboardComponent/DashboardComponent";
-import { useParams } from "react-router-dom";
+import { ApiContext } from "../../context/ApiContext";
 
 const Dashboard = () => {
-  const { userId } = useParams();
+  const { user } = useContext(ApiContext);
   return (
     <div>
-      <DashboardComponent userId={userId} />
+      <DashboardComponent user={user} />
     </div>
   );
 };

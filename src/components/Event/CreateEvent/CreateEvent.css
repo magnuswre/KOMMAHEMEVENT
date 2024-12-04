@@ -1,0 +1,73 @@
+.create-event-error-message {
+    color: red;
+    font-size: 0.9em;
+}
+
+.react-time-picker__clock-button {
+    display: none;
+}
+
+/* .event-time-picker-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+} */
+
+/* .event-date-time-picker {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100%;
+} */
+
+.react-time-picker__wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* width: 100%; */
+}
+
+/* .react-time-picker__inputGroup__input,
+.react-time-picker__inputGroup__divider,
+.react-time-picker__inputGroup__leadingZero,
+.react-time-picker__inputGroup__input.react-time-picker__inputGroup__minute.react-time-picker__inputGroup__input--hasLeadingZero {
+    width: auto !important;
+    font-size: 16px !important;
+    padding: 8px !important;
+    background-color: white !important;
+    color: lightslategray !important;
+    border: none !important;
+
+} */
+
+
+
+/* .react-time-picker__inputGroup {
+    width: 50px !important;
+   
+background-color: white !important;
+color: lightslategray !important;
+border: none !important;
+}
+
+*/
+/* .react-time-picker__inputGroup__divider,
+.react-time-picker__inputGroup__leadingZero {
+    font-size: 18px !important;
+} */
+
+/* .event-date-time-picker {
+    background-color: white;
+} */
+
+.event-form-select,
+.event-form-textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    color: lightslategray;
+}

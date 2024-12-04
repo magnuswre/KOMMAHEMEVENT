@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "248d",
+      "position": {
+        "lat": "",
+        "lng": "",
+        "address": ""
+      },
+      "TypeOfEvent": "wedding",
+      "customEvent": "",
+      "title": "ddd",
+      "description": "ddd",
+      "startDate": "2024-10-24T11:02:53.522Z",
+      "endDate": "2024-10-24T11:02:53.522Z",
+      "startTime": "00:00",
+      "endTime": "00:00"
+    },
+    {
+      "id": "15a8",
+      "position": "Visby",
+      "TypeOfEvent": "birthday",
+      "customEvent": "",
+      "title": "eeee",
+      "description": "eee",
+      "startDate": "2024-10-25T07:31:53.578Z",
+      "endDate": "2024-10-25T07:31:53.578Z",
+      "startTime": "00:00",
+      "endTime": "00:00"
+    },
+    {
+      "id": "4be4",
+      "position": "qwqwq",
+      "TypeOfEvent": "wedding",
+      "customEvent": "",
+      "title": "qwqwq",
+      "description": "qwqw",
+      "startDate": "2024-10-25T07:35:00.622Z",
+      "endDate": "2024-10-25T07:35:00.622Z",
+      "startTime": "00:00",
+      "endTime": "00:00"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "f39e",
+      "email": "mwdev81@gmail.com",
+      "phone": "0738212808",
+      "password": "www",
+      "confirmPassword": "www",
+      "terms": true
+    },
+    {
+      "id": "42a8",
+      "email": "kallebanan@mail.com",
+      "phone": "4566655665",
+      "password": "123",
+      "confirmPassword": "123",
+      "terms": true
+    },
+    {
+      "id": "00fb",
+      "email": "apa@apa.com",
+      "phone": "4566655665",
+      "password": "123",
+      "confirmPassword": "123",
+      "terms": true
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Dashboard.css";
 import DashboardComponent from "../../components/DashboardComponent/DashboardComponent";
 import { ApiContext } from "../../context/ApiContext";

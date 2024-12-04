@@ -88,6 +88,14 @@
       "password": "123",
       "confirmPassword": "123",
       "terms": true
+    },
+    {
+      "id": "7335",
+      "email": "pappa2@apa.com",
+      "phone": "0738212808",
+      "password": "123",
+      "confirmPassword": "123",
+      "terms": true
     }
   ]
 }
